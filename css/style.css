@@ -59,6 +59,11 @@ html  {font-size: 10px;}
     --white-color-4: #f8f9fa;
     --white-color-5: #f8f9f8;
 
+    /*         black and white       */
+    --black-color: #000;
+    --white-color: #fff;
+    --transparent-color: rgba(0, 0, 0, 0);
+
     /*              fonts            */
     --primary-font: ;
     --secondary-font: ;
