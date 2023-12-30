@@ -1,0 +1,271 @@
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: serif;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    list-style: none;
+}
+html  {font-size: 10px;}
+@media only screen and (max-width: 1280px)    {html {font-size: 60%;}}
+@media only screen and (max-width: 1124px)    {html {font-size: 55%;}}
+@media only screen and (max-width: 1080px)    {html {font-size: 50%;}}
+@media only screen and (max-width: 992px)    {html {font-size: 45%;}}
+@media only screen and (max-width: 768px)    {html {font-size: 38%;}}
+@media only screen and (max-width: 440px)    {html {font-size: 34%;}}
+/* ========================= BASIC CODES ============================= */
+.container   {
+    width: 1440px;
+    margin: auto;
+}
+@media only screen and (max-width: 1540px)    {.container {width: 92%;}}
+@media only screen and (max-width: 1280px)    {.container {width: 92%;}}
+@media only screen and (max-width: 992px)    {.container {width: 95%;}}
+@media only screen and (max-width: 768px)    {.container {width: 100%; padding: 10px;}}
+
+
+
+
+.con11   {
+    width: 1170px;
+    margin: auto;
+}
+@media only screen and (max-width: 992px)    {.con11 {width: 95%;}}
+@media only screen and (max-width: 768px)    {.con11 {width: 100%; padding: 10px;}}
+
+
+
+:root    {
+    /*              colors           */
+    --primary-color: ;
+    --secondary-color: ;
+    --tertiary-color: ;
+    --quaternary-color: ;
+
+    /*       gray-scale colors       */
+    --gray-color-1: #777;
+    --gray-color-2: #eee;
+    --gray-color-3: #ccc;
+    --gray-color-4: #555;
+    --gray-color-5: #999;
+
+    /*       white-colors       */
+    --white-color-1: #f0f5f9;
+    --white-color-2: #f5f0f0;
+    --white-color-3: #faf8f9;
+    --white-color-4: #f8f9fa;
+    --white-color-5: #f8f9f8;
+
+    /*              fonts            */
+    --primary-font: ;
+    --secondary-font: ;
+    --tertiary-font: ;
+    --quaternary-font: ;
+
+    /*              font-families       */
+    --primary-font-family: ;
+    --secondary-font-family: ;
+    --tertiary-font-family: ;
+    --quaternary-font-family: ;
+
+    /*              padding-sizes       */
+    --padding-size-1: 10px;
+    --padding-size-2: 1rem;
+    --padding-size-3: 20px;
+    --padding-size-4: 25px;
+    --padding-size-5: 2rem;
+    --padding-size-6: 28px;
+    --padding-size-7: 3.5rem;
+    --padding-size-8: 4rem;
+    --padding-size-9: 5rem;
+    --padding-size-10: 6rem;
+    
+    /*              margin-sizes       */
+    --margin-size-1: 10px;
+    --margin-size-2: 1rem;
+    --margin-size-3: 20px;
+    --margin-size-4: 25px;
+    --margin-size-5: 2rem;
+    --margin-size-6: 28px;
+    --margin-size-7: 3.5rem;
+    --margin-size-8: 4rem;
+    --margin-size-9: 5rem;
+    --margin-size-10: 6rem;
+}
+::selection     {}
+
+
+h1 {
+    font-size: 3rem; /* Adjust size as needed */
+  }
+  
+  h2 {
+    font-size: 2.5rem; /* Adjust size as needed */
+  }
+  
+  h3 {
+    font-size: 2rem; /* Adjust size as needed */
+  }
+  
+  h4 {
+    font-size: 1.5rem; /* Adjust size as needed */
+  }
+  
+  h5 {
+    font-size: 1.25rem; /* Adjust size as needed */
+  }
+  
+  h6 {
+    font-size: 1rem; /* Adjust size as needed */
+  }
+  p  {
+    font-size: 1rem; /* Adjust size as needed */
+  }
+  a  {  
+    text-decoration: none;
+  }
+  li  {
+    list-style: none;
+  }
+
+  /* Button Styles */
+.main-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    border: 2px solid #000;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #000;
+    transition: all 0.3s ease;
+  }
+  
+  /* Hover State */
+  .main-btn:hover {
+    background-color: #000;
+    color: #fff;
+  }
+
+  /* Width, height, and color of scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  
+  /* Track (background) of the scrollbar */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle (thumb) of the scrollbar */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+
+.section-padding   {
+    padding: 100px 0px;
+}
+.section-h1  {
+    font-size: 4rem;
+}
+/* ========================= BASIC CODES ============================= */
+
+  
+  
+
+
+
+/* ============================= SECTION 1 =============================== */
+.section1   {}
+.section1-container   {}
+/* ============================= SECTION 1 =============================== */
+
+/* ============================= SECTION 2 =============================== */
+.section2   {}
+.section2-container   {}
+/* ============================= SECTION 2 =============================== */
+
+/* ============================= SECTION 3 =============================== */
+.section3   {}
+.section3-container   {}
+/* ============================= SECTION 3 =============================== */
+
+/* ============================= SECTION 4 =============================== */
+.section4   {}
+.section4-container   {}
+/* ============================= SECTION 4 =============================== */
+
+/* ============================= SECTION 5 =============================== */
+.section5   {}
+.section5-container   {}
+/* ============================= SECTION 5 =============================== */
+
+/* ============================= SECTION 6 =============================== */
+.section6   {}
+.section6-container   {}
+/* ============================= SECTION 6 =============================== */
+
+/* ============================= SECTION 7 =============================== */
+.section7   {}
+.section7-container   {}
+/* ============================= SECTION 7 =============================== */
+
+/* ============================= SECTION 8 =============================== */
+.section8   {}
+.section8-container   {}
+/* ============================= SECTION 8 =============================== */
+
+/* ============================= SECTION 9 =============================== */
+.section9   {}
+.section9-container   {}
+/* ============================= SECTION 9 =============================== */
+
+/* ============================= SECTION 10 =============================== */
+.section10   {}
+.section10-container   {}
+/* ============================= SECTION 10 =============================== */
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+
+
+
+
+@media only screen and (max-width: 1440px)    {}
+@media only screen and (max-width: 1366px)    {}
+@media only screen and (max-width: 1280px)    {}
+@media only screen and (max-width: 1080px)    {}
+@media only screen and (max-width: 992px)    {}
+@media only screen and (max-width: 768px)    {}
+@media only screen and (max-width: 440px)    {}
+
+
+
+
+
+
+*/
